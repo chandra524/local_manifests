@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="chandra"
+	    fetch="https://github.com/chandra524" />
+    <remove-project name="CypherOS/frameworks_base"/>
+    <remove-project name="CypherOS/device_aoscp_sepolicy"/>
+    <remove-project name="CypherOS/hardware_aoscp_interfaces"/>
+    <remove-project name="CypherOS/frameworks_av"/>
+    <remove-project name="CypherOS/system_sepolicy"/>
+    <remove-project name="CypherOS/frameworks_native"/>
+    <remove-project name="CypherOS/build_soong"/>
+
+    
+    <project path="frameworks/base" name="frameworks_base" remote="chandra" revision="poundcake-release"/>
+    <project path="device/aoscp/sepolicy" name="device_aoscp_sepolicy" remote="chandra" revision="poundcake-release"/>
+    <project path="hardware/aoscp/interfaces" name="hardware_aoscp_interfaces" remote="chandra" revision="poundcake-release"/>
+    <project path="frameworks/av" name="frameworks_av" remote="chandra" revision="poundcake-release"/>
+    <project path="system/sepolicy" name="system_sepolicy" remote="chandra" revision="poundcake-release"/>
+    <project path="frameworks/native" name="frameworks_native" remote="chandra" revision="poundcake-release"/>
+    <project path="build_soong" name="build_soong" remote="chandra" revision="poundcake-release"/>
+    <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="chandra" revision="lineage-16.0"/>
+</manifest>
